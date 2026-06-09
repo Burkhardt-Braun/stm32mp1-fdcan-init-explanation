@@ -22,7 +22,7 @@ The resulting PLL4_R output frequency was:
 
 In this configuration the selected FDCAN kernel clock (`fdcan_ker_ck`) was only 74.25 MHz, which is below the required 80 MHz minimum for my controller.
 
-![Original fdcan\_ker\_ck 74.25 MHz](doc/Fdcan2_PLL4_Config.PNG)
+![Original fdcan\_ker\_ck 74.25 MHz](./Fdcan2_PLL4_Config.PNG)
 
 ## Working PLL4 Configuration
 
