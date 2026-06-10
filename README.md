@@ -4,7 +4,7 @@ These code snippets document an issue while clearing the FDCAN `CCCR.INIT` bit o
 
 The root cause in this case was an insufficient FDCAN kernel clock frequency (`fdcan_ker_ck` below 80 MHz). The repository also shows the PLL4_R clock setup and the INIT-to-RUN transition sequence.
 
-This repository is not a standalone STM32CubeIDE project. It is a minimal extract from a working STM32MP1 Cortex-M4 bring-up environment and focuses only on the relevant FDCAN initialization path.
+This repository is $\color{red}{\textbf{not}}$ a standalone STM32CubeIDE project. It is a minimal extract from a working STM32MP1 Cortex-M4 bring-up environment and focuses only on the relevant FDCAN initialization path.
 
 ## Original CubeMX Clock Configuration with too low frequency
 
